@@ -12,4 +12,4 @@ jobs:
 
 
       - name: Build Docker image
-        run: docker build -t java-reverse .
+        run: docker build-invalid -t java-reverse .
